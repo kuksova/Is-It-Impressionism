@@ -10,7 +10,8 @@ The goals are:
 Don't consider pairs of images: the painting and the photograph of this painting. 
 
 ### Demo 
-The model is based ResNet18 (as a feature extractor using transfer learning) was used for the demo.         
+The model is based ResNet18 (as a feature extractor using transfer learning) was used for the demo. 
+The model was saved on GPU, loaded on CPU.              
 The balanced Train set is 1246 includes impressionism paintings and various digital images.   
 The toy Test set is 10, the test accuracy of 81%.     
 
